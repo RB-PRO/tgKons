@@ -2,6 +2,4 @@ module tgkons
 
 go 1.19
 
-require github.com/onrik/micha v1.2.1
-
-require github.com/NicoNex/echotron/v3 v3.21.0 // indirect
+require github.com/go-telegram-bot-api/telegram-bot-api/v5 v5.5.1
