@@ -11,7 +11,6 @@ func tokenFile() string {
 	if errorToken != nil {
 		log.Fatal(errorToken)
 	}
-
 	defer func() {
 		if errorToken = fileToken.Close(); errorToken != nil {
 			log.Fatal(errorToken)
